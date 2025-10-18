@@ -22,9 +22,107 @@ Skills 是专门化的提示词和工作流程，用于扩展 AI 智能体的能
 
 ## Claude 官方 Skills
 
-Anthropic 官方为 Claude Code 提供的 skills。
+Anthropic 官方为 Claude Code 提供的 skills。所有 skills 来自[官方仓库](https://github.com/anthropics/skills)。
 
-*即将推出 - 官方 skills 将在可用时添加*
+### 创意与设计
+
+#### [算法艺术](https://github.com/anthropics/skills/tree/main/algorithmic-art)
+使用 p5.js 生成艺术视觉效果，包括随机化、流场和粒子效果。
+
+**使用场景：** 创建程序化艺术、生成式设计或视觉实验。
+
+---
+
+#### [画布设计](https://github.com/anthropics/skills/tree/main/canvas-design)
+利用设计原则生成专业的 PNG 和 PDF 格式视觉作品。
+
+**使用场景：** 创建营销素材、社交媒体图形或视觉内容。
+
+---
+
+#### [Slack GIF 创建器](https://github.com/anthropics/skills/tree/main/slack-gif-creator)
+生成符合 Slack 大小要求的优化动画 GIF。
+
+**使用场景：** 为团队沟通或社交媒体创建动画。
+
+---
+
+### 开发与技术
+
+#### [Artifacts 构建器](https://github.com/anthropics/skills/tree/main/artifacts-builder)
+使用 React、Tailwind CSS 和 shadcn/ui 构建复杂的交互式界面。
+
+**使用场景：** 在 Claude.ai 中构建丰富的 Web 界面、仪表板或交互式组件。
+
+---
+
+#### [MCP 构建器](https://github.com/anthropics/skills/tree/main/mcp-builder)
+提供创建高质量 MCP（模型上下文协议）服务器的指导，用于连接外部 API。
+
+**使用场景：** 集成第三方服务、构建自定义 API 连接器或扩展 Claude 的能力。
+
+---
+
+#### [Web 应用测试](https://github.com/anthropics/skills/tree/main/webapp-testing)
+使用 Playwright 测试本地 Web 应用，进行 UI 验证和质量保证。
+
+**使用场景：** 自动化 Web 应用测试、验证 UI 行为或执行 QA 检查。
+
+---
+
+### 企业与沟通
+
+#### [品牌指南](https://github.com/anthropics/skills/tree/main/brand-guidelines)
+将 Anthropic 官方设计系统应用于 artifacts，确保品牌一致性。
+
+**使用场景：** 创建品牌素材、确保设计一致性或遵循企业风格指南。
+
+---
+
+#### [内部沟通](https://github.com/anthropics/skills/tree/main/internal-comms)
+起草组织沟通内容，如报告、新闻通讯和公告。
+
+**使用场景：** 编写内部文档、团队更新或公司范围的沟通。
+
+---
+
+#### [主题工厂](https://github.com/anthropics/skills/tree/main/theme-factory)
+为 artifacts 应用专业主题或生成自定义设计系统。
+
+**使用场景：** 应用样式、创建设计系统或保持视觉一致性。
+
+---
+
+### 元技能
+
+#### [Skill 创建器](https://github.com/anthropics/skills/tree/main/skill-creator)
+教授为 Claude 开发有效 skills 的最佳实践。
+
+**使用场景：** 构建新 skills、学习 skill 开发模式或改进现有 skills。
+
+---
+
+#### [Skill 模板](https://github.com/anthropics/skills/tree/main/template-skill)
+提供具有正确结构的新 skill 创建起始模板。
+
+**使用场景：** 从头开始创建新 skill 或学习 skill 格式。
+
+---
+
+### 文档技能
+
+#### [文档技能套件](https://github.com/anthropics/skills/tree/main/document-skills)
+
+用于操作各种文档格式的 skills 集合（源码可用的参考实现）：
+
+- **[DOCX](https://github.com/anthropics/skills/tree/main/document-skills/docx)** - 创建和编辑 Word 文档
+- **[PDF](https://github.com/anthropics/skills/tree/main/document-skills/pdf)** - 操作 PDF 文件
+- **[PPTX](https://github.com/anthropics/skills/tree/main/document-skills/pptx)** - 创建和编辑 PowerPoint 演示文稿
+- **[XLSX](https://github.com/anthropics/skills/tree/main/document-skills/xlsx)** - 处理 Excel 电子表格
+
+**使用场景：** 处理 Office 文档、自动化文档生成或处理文件。
+
+**注意：** 这些是展示复杂生产 skills 的参考实现。
 
 ## 社区贡献 Skills
 

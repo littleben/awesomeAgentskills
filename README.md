@@ -22,9 +22,107 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 
 ## Claude Official Skills
 
-Official skills provided by Anthropic for Claude Code.
+Official skills provided by Anthropic for Claude Code. All skills are from the [official repository](https://github.com/anthropics/skills).
 
-*Coming soon - official skills will be added as they become available*
+### Creative & Design
+
+#### [Algorithmic Art](https://github.com/anthropics/skills/tree/main/algorithmic-art)
+Generates artistic visuals using p5.js with randomization, flow fields, and particle effects.
+
+**Use when:** Creating procedural art, generative designs, or visual experiments.
+
+---
+
+#### [Canvas Design](https://github.com/anthropics/skills/tree/main/canvas-design)
+Produces professional visual artwork in PNG and PDF formats leveraging design principles.
+
+**Use when:** Creating marketing materials, social media graphics, or visual content.
+
+---
+
+#### [Slack GIF Creator](https://github.com/anthropics/skills/tree/main/slack-gif-creator)
+Produces animated GIFs optimized for Slack's size requirements.
+
+**Use when:** Creating animations for team communication or social media.
+
+---
+
+### Development & Technical
+
+#### [Artifacts Builder](https://github.com/anthropics/skills/tree/main/artifacts-builder)
+Constructs complex interactive interfaces using React, Tailwind CSS, and shadcn/ui.
+
+**Use when:** Building rich web interfaces, dashboards, or interactive components within Claude.ai.
+
+---
+
+#### [MCP Builder](https://github.com/anthropics/skills/tree/main/mcp-builder)
+Provides guidance for creating high-quality MCP (Model Context Protocol) servers to connect external APIs.
+
+**Use when:** Integrating third-party services, building custom API connectors, or extending Claude's capabilities.
+
+---
+
+#### [Webapp Testing](https://github.com/anthropics/skills/tree/main/webapp-testing)
+Tests local web applications using Playwright for UI verification and quality assurance.
+
+**Use when:** Automating web application testing, validating UI behavior, or running QA checks.
+
+---
+
+### Enterprise & Communication
+
+#### [Brand Guidelines](https://github.com/anthropics/skills/tree/main/brand-guidelines)
+Applies Anthropic's official design system to artifacts for brand consistency.
+
+**Use when:** Creating branded materials, ensuring design consistency, or following corporate style guides.
+
+---
+
+#### [Internal Comms](https://github.com/anthropics/skills/tree/main/internal-comms)
+Drafts organizational communications like reports, newsletters, and announcements.
+
+**Use when:** Writing internal documentation, team updates, or company-wide communications.
+
+---
+
+#### [Theme Factory](https://github.com/anthropics/skills/tree/main/theme-factory)
+Applies professional themes to artifacts or generates custom design systems.
+
+**Use when:** Styling applications, creating design systems, or maintaining visual consistency.
+
+---
+
+### Meta Skills
+
+#### [Skill Creator](https://github.com/anthropics/skills/tree/main/skill-creator)
+Teaches best practices for developing effective skills for Claude.
+
+**Use when:** Building new skills, learning skill development patterns, or improving existing skills.
+
+---
+
+#### [Template Skill](https://github.com/anthropics/skills/tree/main/template-skill)
+Provides a starter template for new skill creation with proper structure.
+
+**Use when:** Starting a new skill from scratch or learning the skill format.
+
+---
+
+### Document Skills
+
+#### [Document Skills Suite](https://github.com/anthropics/skills/tree/main/document-skills)
+
+A collection of skills for manipulating various document formats (source-available reference implementations):
+
+- **[DOCX](https://github.com/anthropics/skills/tree/main/document-skills/docx)** - Create and edit Word documents
+- **[PDF](https://github.com/anthropics/skills/tree/main/document-skills/pdf)** - Manipulate PDF files
+- **[PPTX](https://github.com/anthropics/skills/tree/main/document-skills/pptx)** - Create and edit PowerPoint presentations
+- **[XLSX](https://github.com/anthropics/skills/tree/main/document-skills/xlsx)** - Handle Excel spreadsheets
+
+**Use when:** Working with Office documents, automating document generation, or processing files.
+
+**Note:** These are reference implementations showcasing complex production skills.
 
 ## Community Skills
 
