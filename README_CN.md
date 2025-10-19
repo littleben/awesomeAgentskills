@@ -12,155 +12,27 @@ Skills 是专门化的提示词和工作流程，用于扩展 AI 智能体的能
 - **领域专业知识** - 在特定领域的专业能力
 - **一致性** - 在相似任务中保持一致的质量
 
-## 目录
+## 快速导航
 
-- [Claude 官方 Skills](#claude-官方-skills)
-  - [Notion 技能](#notion-技能)
-- [社区贡献 Skills](#社区贡献-skills)
-  - [框架文档](#框架文档)
-  - [Web 性能与 SEO](#web-性能与-seo)
-  - [国际化与部署](#国际化与部署)
-- [如何使用 Skills](#如何使用-skills)
-- [贡献指南](#贡献指南)
+- 📚 [**Claude 官方 Skills**](./official-skills/README.md) - 创意设计、开发工具、企业沟通与元技能
+- 🌟 [**社区贡献 Skills**](#社区贡献-skills) - 框架文档、Web性能、国际化与部署
+- 🎓 [**使用指南**](#如何使用-skills) - 安装和使用说明
+- 🤝 [**贡献指南**](#贡献指南) - 提交你自己的 skills
 
 ## Claude 官方 Skills
 
-Anthropic 官方为 Claude Code 提供的 skills。所有 skills 来自[官方仓库](https://github.com/anthropics/skills)。
+Anthropic 官方为 Claude Code 提供的 skills。包含创意设计、开发工具、企业沟通、文档处理、元技能和 Notion 集成。
 
-### 创意与设计
+**[📚 查看所有官方 Skills →](./official-skills/README.md)**
 
-#### [算法艺术](https://github.com/anthropics/skills/tree/main/algorithmic-art)
-使用 p5.js 生成艺术视觉效果，包括随机化、流场和粒子效果。
+### 精选推荐
 
-**使用场景：** 创建程序化艺术、生成式设计或视觉实验。
-
----
-
-#### [画布设计](https://github.com/anthropics/skills/tree/main/canvas-design)
-利用设计原则生成专业的 PNG 和 PDF 格式视觉作品。
-
-**使用场景：** 创建营销素材、社交媒体图形或视觉内容。
-
----
-
-#### [Slack GIF 创建器](https://github.com/anthropics/skills/tree/main/slack-gif-creator)
-生成符合 Slack 大小要求的优化动画 GIF。
-
-**使用场景：** 为团队沟通或社交媒体创建动画。
-
----
-
-### 开发与技术
-
-#### [Artifacts 构建器](https://github.com/anthropics/skills/tree/main/artifacts-builder)
-使用 React、Tailwind CSS 和 shadcn/ui 构建复杂的交互式界面。
-
-**使用场景：** 在 Claude.ai 中构建丰富的 Web 界面、仪表板或交互式组件。
-
----
-
-#### [MCP 构建器](https://github.com/anthropics/skills/tree/main/mcp-builder)
-提供创建高质量 MCP（模型上下文协议）服务器的指导，用于连接外部 API。
-
-**使用场景：** 集成第三方服务、构建自定义 API 连接器或扩展 Claude 的能力。
-
----
-
-#### [Web 应用测试](https://github.com/anthropics/skills/tree/main/webapp-testing)
-使用 Playwright 测试本地 Web 应用，进行 UI 验证和质量保证。
-
-**使用场景：** 自动化 Web 应用测试、验证 UI 行为或执行 QA 检查。
-
----
-
-### 企业与沟通
-
-#### [品牌指南](https://github.com/anthropics/skills/tree/main/brand-guidelines)
-将 Anthropic 官方设计系统应用于 artifacts，确保品牌一致性。
-
-**使用场景：** 创建品牌素材、确保设计一致性或遵循企业风格指南。
-
----
-
-#### [内部沟通](https://github.com/anthropics/skills/tree/main/internal-comms)
-起草组织沟通内容，如报告、新闻通讯和公告。
-
-**使用场景：** 编写内部文档、团队更新或公司范围的沟通。
-
----
-
-#### [主题工厂](https://github.com/anthropics/skills/tree/main/theme-factory)
-为 artifacts 应用专业主题或生成自定义设计系统。
-
-**使用场景：** 应用样式、创建设计系统或保持视觉一致性。
-
----
-
-### 元技能
-
-#### [Skill 创建器](https://github.com/anthropics/skills/tree/main/skill-creator)
-教授为 Claude 开发有效 skills 的最佳实践。
-
-**使用场景：** 构建新 skills、学习 skill 开发模式或改进现有 skills。
-
----
-
-#### [Skill 模板](https://github.com/anthropics/skills/tree/main/template-skill)
-提供具有正确结构的新 skill 创建起始模板。
-
-**使用场景：** 从头开始创建新 skill 或学习 skill 格式。
-
----
-
-### 文档技能
-
-#### [文档技能套件](https://github.com/anthropics/skills/tree/main/document-skills)
-
-用于操作各种文档格式的 skills 集合（源码可用的参考实现）：
-
-- **[DOCX](https://github.com/anthropics/skills/tree/main/document-skills/docx)** - 创建和编辑 Word 文档
-- **[PDF](https://github.com/anthropics/skills/tree/main/document-skills/pdf)** - 操作 PDF 文件
-- **[PPTX](https://github.com/anthropics/skills/tree/main/document-skills/pptx)** - 创建和编辑 PowerPoint 演示文稿
-- **[XLSX](https://github.com/anthropics/skills/tree/main/document-skills/xlsx)** - 处理 Excel 电子表格
-
-**使用场景：** 处理 Office 文档、自动化文档生成或处理文件。
-
-**注意：** 这些是展示复杂生产 skills 的参考实现。
-
----
-
-### Notion 技能
-
-官方 Notion Skills 帮助 Claude 在 Notion 中完成工作流程 - 构建页面结构、更新数据库，并遵循你团队的工作模式。
-
-#### [Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
-
-分步指南教会 Claude 如何在 Notion 中完成实际工作。不仅仅是回答问题，Skills 帮助 Claude 完成整个工作流程。
-
-**可用的 Skills：**
-
-- **会议智能 🧠** - 从 Notion 收集上下文，通过 Claude 研究丰富内容，创建内部预读材料和外部议程，并保存到 Notion。帮助你做好充分准备，提供全面的背景信息和结构化的会议文档。
-
-- **研究与文档 🔎** - 在 Notion 工作区中搜索，综合多个页面的发现，创建包含引用和可操作见解的全面研究文档并保存为新的 Notion 页面。将分散的信息转化为结构化报告。
-
-- **知识捕获 📚** - 将对话转化为 Notion 中的持久知识。从聊天中捕获见解和决策，清晰格式化，并通过智能链接归档到正确的 wiki 或数据库中。
-
-- **规格到实现 🚀** - 将产品或技术规格转化为 Claude Code 可以实现的具体 Notion 任务。将规格页面分解为详细的实现计划，包含明确的任务、验收标准和进度跟踪，指导从需求到完成的开发过程。
-
-**使用场景：**
-- 将规格转化为实现计划
-- 执行研究并生成精美的 Notion 文档
-- 准备会议，提前整理好上下文
-- 将决策记录到 wiki 或任务数据库中
-
-**如何安装：**
-1. 从[官方页面](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)下载 Notion Skills .zip 文件
-2. 在 Claude 中打开 设置 > 功能
-3. 进入 Skills
-4. 上传每个 Notion Skill .zip 文件
-5. 点击 "..." 在聊天中试用
-
-[查看 Skills →](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
+- 🎨 **创意类**: 算法艺术、画布设计、Slack GIF 创建器
+- 💻 **开发类**: Artifacts 构建器、MCP 构建器、Web 应用测试
+- 🏢 **企业类**: 品牌指南、内部沟通、主题工厂
+- 📄 **文档类**: DOCX、PDF、PPTX、XLSX 操作
+- 🔧 **元技能**: Skill 创建器、Skill 模板
+- 📝 **Notion**: 会议智能、研究文档、知识捕获、规格实现
 
 ## 社区贡献 Skills
 

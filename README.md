@@ -12,155 +12,27 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 - **Domain expertise** in specific areas
 - **Consistency** across similar tasks
 
-## Table of Contents
+## Quick Links
 
-- [Claude Official Skills](#claude-official-skills)
-  - [Notion Skills](#notion-skills)
-- [Community Skills](#community-skills)
-  - [Framework Documentation](#framework-documentation)
-  - [Web Performance & SEO](#web-performance--seo)
-  - [Internationalization & Deployment](#internationalization--deployment)
-- [How to Use Skills](#how-to-use-skills)
-- [Contributing](#contributing)
+- 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
+- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
+- 🤝 [**Contributing**](#contributing) - Submit your own skills
 
 ## Claude Official Skills
 
-Official skills provided by Anthropic for Claude Code. All skills are from the [official repository](https://github.com/anthropics/skills).
+Official skills provided by Anthropic for Claude Code. Includes Creative & Design, Development & Technical, Enterprise & Communication, Document Skills, Meta Skills, and Notion Skills.
 
-### Creative & Design
+**[📚 View All Official Skills →](./official-skills/README.md)**
 
-#### [Algorithmic Art](https://github.com/anthropics/skills/tree/main/algorithmic-art)
-Generates artistic visuals using p5.js with randomization, flow fields, and particle effects.
+### Highlights
 
-**Use when:** Creating procedural art, generative designs, or visual experiments.
-
----
-
-#### [Canvas Design](https://github.com/anthropics/skills/tree/main/canvas-design)
-Produces professional visual artwork in PNG and PDF formats leveraging design principles.
-
-**Use when:** Creating marketing materials, social media graphics, or visual content.
-
----
-
-#### [Slack GIF Creator](https://github.com/anthropics/skills/tree/main/slack-gif-creator)
-Produces animated GIFs optimized for Slack's size requirements.
-
-**Use when:** Creating animations for team communication or social media.
-
----
-
-### Development & Technical
-
-#### [Artifacts Builder](https://github.com/anthropics/skills/tree/main/artifacts-builder)
-Constructs complex interactive interfaces using React, Tailwind CSS, and shadcn/ui.
-
-**Use when:** Building rich web interfaces, dashboards, or interactive components within Claude.ai.
-
----
-
-#### [MCP Builder](https://github.com/anthropics/skills/tree/main/mcp-builder)
-Provides guidance for creating high-quality MCP (Model Context Protocol) servers to connect external APIs.
-
-**Use when:** Integrating third-party services, building custom API connectors, or extending Claude's capabilities.
-
----
-
-#### [Webapp Testing](https://github.com/anthropics/skills/tree/main/webapp-testing)
-Tests local web applications using Playwright for UI verification and quality assurance.
-
-**Use when:** Automating web application testing, validating UI behavior, or running QA checks.
-
----
-
-### Enterprise & Communication
-
-#### [Brand Guidelines](https://github.com/anthropics/skills/tree/main/brand-guidelines)
-Applies Anthropic's official design system to artifacts for brand consistency.
-
-**Use when:** Creating branded materials, ensuring design consistency, or following corporate style guides.
-
----
-
-#### [Internal Comms](https://github.com/anthropics/skills/tree/main/internal-comms)
-Drafts organizational communications like reports, newsletters, and announcements.
-
-**Use when:** Writing internal documentation, team updates, or company-wide communications.
-
----
-
-#### [Theme Factory](https://github.com/anthropics/skills/tree/main/theme-factory)
-Applies professional themes to artifacts or generates custom design systems.
-
-**Use when:** Styling applications, creating design systems, or maintaining visual consistency.
-
----
-
-### Meta Skills
-
-#### [Skill Creator](https://github.com/anthropics/skills/tree/main/skill-creator)
-Teaches best practices for developing effective skills for Claude.
-
-**Use when:** Building new skills, learning skill development patterns, or improving existing skills.
-
----
-
-#### [Template Skill](https://github.com/anthropics/skills/tree/main/template-skill)
-Provides a starter template for new skill creation with proper structure.
-
-**Use when:** Starting a new skill from scratch or learning the skill format.
-
----
-
-### Document Skills
-
-#### [Document Skills Suite](https://github.com/anthropics/skills/tree/main/document-skills)
-
-A collection of skills for manipulating various document formats (source-available reference implementations):
-
-- **[DOCX](https://github.com/anthropics/skills/tree/main/document-skills/docx)** - Create and edit Word documents
-- **[PDF](https://github.com/anthropics/skills/tree/main/document-skills/pdf)** - Manipulate PDF files
-- **[PPTX](https://github.com/anthropics/skills/tree/main/document-skills/pptx)** - Create and edit PowerPoint presentations
-- **[XLSX](https://github.com/anthropics/skills/tree/main/document-skills/xlsx)** - Handle Excel spreadsheets
-
-**Use when:** Working with Office documents, automating document generation, or processing files.
-
-**Note:** These are reference implementations showcasing complex production skills.
-
----
-
-### Notion Skills
-
-Official Notion Skills that help Claude complete workflows in Notion - structuring pages, updating databases, and following your team's patterns.
-
-#### [Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
-
-Step-by-step guides that teach Claude how to do real work in Notion. Instead of just answering questions, Skills help Claude complete entire workflows.
-
-**Available Skills:**
-
-- **Meeting Intelligence 🧠** - Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an internal pre-read and external agenda saved to Notion. Helps you arrive prepared with a comprehensive background and structured meeting docs.
-
-- **Research & Documentation 🔎** - Searches across your Notion workspace, synthesizes findings from multiple pages, and creates comprehensive research documentation saved as new Notion pages. Turns scattered information into structured reports with proper citations and actionable insights.
-
-- **Knowledge Capture 📚** - Turns discussions into durable knowledge in Notion. Captures insights and decisions from chat, formats them clearly, and files them to the right wiki or database with smart linking.
-
-- **Spec to Implementation 🚀** - Turns product or tech specs into concrete Notion tasks that Claude Code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.
-
-**Use when:**
-- Turning specs into implementation plans
-- Running research that ends up as beautiful Notion docs
-- Prepping for meetings with context already pulled together
-- Capturing decisions into your wiki or task database
-
-**How to install:**
-1. Download the Notion Skills .zip files from the [official page](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
-2. Open Settings > Capabilities in Claude
-3. Go to Skills
-4. Upload each Notion Skill .zip file
-5. Click "..." to Try in chat
-
-[View Skills →](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
+- 🎨 **Creative**: Algorithmic Art, Canvas Design, Slack GIF Creator
+- 💻 **Development**: Artifacts Builder, MCP Builder, Webapp Testing
+- 🏢 **Enterprise**: Brand Guidelines, Internal Comms, Theme Factory
+- 📄 **Documents**: DOCX, PDF, PPTX, XLSX manipulation
+- 🔧 **Meta**: Skill Creator, Template Skill
+- 📝 **Notion**: Meeting Intelligence, Research & Documentation, Knowledge Capture, Spec to Implementation
 
 ## Community Skills
 
