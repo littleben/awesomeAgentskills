@@ -126,6 +126,42 @@ Anthropic 官方为 Claude Code 提供的 skills。所有 skills 来自[官方�
 
 ## 社区贡献 Skills
 
+### Web 性能与 SEO
+
+用于优化网站性能、可访问性和搜索引擎排名的 skills。
+
+#### [Web 可访问性 - 对比度审计修复](./web-performance-seo)
+
+诊断并修复 PageSpeed Insights 可访问性 "!" 错误（由 color-contrast 审计失败导致）。
+
+**使用场景：**
+- PageSpeed Insights 显示 "!" 而非可访问性分数
+- color-contrast 审计报告错误或不完整
+- 需要修复 `getImageData` canvas 错误
+- 提升 WCAG 2.1 合规性
+
+**功能特性：**
+- 5 步系统化修复工作流程
+- 5 分钟紧急修复方案
+- 完整的诊断命令集
+- OKLCH → HSL 颜色空间转换
+- CSS filter 移除指南
+- 透明度阈值优化
+- WCAG 2.1 对比度标准
+- 部署前后验证流程
+
+**效果：**
+- ✅ 可访问性分数："!" → 85-100
+- ✅ SEO 排名提升
+- ✅ 用户体验改善
+- ✅ 法律合规（ADA, WCAG 2.1）
+
+**技术栈：** Next.js, React, Tailwind CSS, Lighthouse, axe-core
+
+[查看 Skill →](./web-performance-seo)
+
+---
+
 ### 国际化与部署
 
 用于添加多语言支持和部署 Web 应用的 skills。

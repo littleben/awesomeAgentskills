@@ -126,6 +126,42 @@ A collection of skills for manipulating various document formats (source-availab
 
 ## Community Skills
 
+### Web Performance & SEO
+
+Skills for optimizing website performance, accessibility, and search engine rankings.
+
+#### [Web Accessibility - Contrast Audit Fix](./web-performance-seo)
+
+Diagnoses and fixes PageSpeed Insights accessibility "!" errors caused by color-contrast audit failures.
+
+**Use when:**
+- PageSpeed Insights shows "!" instead of Accessibility score
+- color-contrast audit reports errors or incomplete
+- Need to fix `getImageData` canvas errors
+- Improving WCAG 2.1 compliance
+
+**Features:**
+- 5-step systematic fix workflow
+- Quick 5-minute emergency fix
+- Comprehensive diagnostic commands
+- OKLCH → HSL color space conversion
+- CSS filter removal guidelines
+- Opacity threshold optimization
+- WCAG 2.1 contrast standards
+- Pre/post deployment verification
+
+**Impact:**
+- ✅ Accessibility score: "!" → 85-100
+- ✅ Improved SEO rankings
+- ✅ Better user experience
+- ✅ Legal compliance (ADA, WCAG 2.1)
+
+**Tech Stack:** Next.js, React, Tailwind CSS, Lighthouse, axe-core
+
+[View Skill →](./web-performance-seo)
+
+---
+
 ### Internationalization & Deployment
 
 Skills for adding multi-language support and deploying web applications.
