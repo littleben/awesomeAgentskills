@@ -15,7 +15,9 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Table of Contents
 
 - [Claude Official Skills](#claude-official-skills)
+  - [Notion Skills](#notion-skills)
 - [Community Skills](#community-skills)
+  - [Web Performance & SEO](#web-performance--seo)
   - [Internationalization & Deployment](#internationalization--deployment)
 - [How to Use Skills](#how-to-use-skills)
 - [Contributing](#contributing)
@@ -123,6 +125,41 @@ A collection of skills for manipulating various document formats (source-availab
 **Use when:** Working with Office documents, automating document generation, or processing files.
 
 **Note:** These are reference implementations showcasing complex production skills.
+
+---
+
+### Notion Skills
+
+Official Notion Skills that help Claude complete workflows in Notion - structuring pages, updating databases, and following your team's patterns.
+
+#### [Notion Skills for Claude](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
+
+Step-by-step guides that teach Claude how to do real work in Notion. Instead of just answering questions, Skills help Claude complete entire workflows.
+
+**Available Skills:**
+
+- **Meeting Intelligence 🧠** - Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an internal pre-read and external agenda saved to Notion. Helps you arrive prepared with a comprehensive background and structured meeting docs.
+
+- **Research & Documentation 🔎** - Searches across your Notion workspace, synthesizes findings from multiple pages, and creates comprehensive research documentation saved as new Notion pages. Turns scattered information into structured reports with proper citations and actionable insights.
+
+- **Knowledge Capture 📚** - Turns discussions into durable knowledge in Notion. Captures insights and decisions from chat, formats them clearly, and files them to the right wiki or database with smart linking.
+
+- **Spec to Implementation 🚀** - Turns product or tech specs into concrete Notion tasks that Claude Code can implement. Breaks down spec pages into detailed implementation plans with clear tasks, acceptance criteria, and progress tracking to guide development from requirements to completion.
+
+**Use when:**
+- Turning specs into implementation plans
+- Running research that ends up as beautiful Notion docs
+- Prepping for meetings with context already pulled together
+- Capturing decisions into your wiki or task database
+
+**How to install:**
+1. Download the Notion Skills .zip files from the [official page](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
+2. Open Settings > Capabilities in Claude
+3. Go to Skills
+4. Upload each Notion Skill .zip file
+5. Click "..." to Try in chat
+
+[View Skills →](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
 
 ## Community Skills
 
