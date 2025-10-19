@@ -17,6 +17,7 @@ Skills 是专门化的提示词和工作流程，用于扩展 AI 智能体的能
 - [Claude 官方 Skills](#claude-官方-skills)
   - [Notion 技能](#notion-技能)
 - [社区贡献 Skills](#社区贡献-skills)
+  - [框架文档](#框架文档)
   - [Web 性能与 SEO](#web-性能与-seo)
   - [国际化与部署](#国际化与部署)
 - [如何使用 Skills](#如何使用-skills)
@@ -162,6 +163,54 @@ Anthropic 官方为 Claude Code 提供的 skills。所有 skills 来自[官方�
 [查看 Skills →](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
 
 ## 社区贡献 Skills
+
+### 框架文档
+
+为流行框架和工具提供完整文档参考的 skills。
+
+#### [Shipany Docs](./shipany)
+
+Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
+
+**使用场景：**
+- 使用 Shipany 模板构建 SaaS 应用
+- 配置 Next.js 15 + Drizzle ORM + NextAuth
+- 集成支付系统（Stripe/Creem）
+- 搭建多语言 SaaS 应用
+- 在 SaaS 产品中实现 AI 功能
+
+**功能特性：**
+- 228 页完整文档
+- Drizzle ORM 数据库配置
+- 认证系统（Google/GitHub 登录）
+- 支付集成（Stripe/Creem）
+- 邮件服务（Resend）
+- AI 集成（OpenAI、Replicate、Kling AI）
+- 国际化（next-intl）
+- SEO 优化
+- 云存储配置
+- 用户管理与管理后台
+- 博客系统与 CMS
+
+**覆盖内容：**
+- 📚 11 个分类主题（总计 572KB）
+- 🚀 快速开始与配置
+- 💾 数据库与 ORM
+- 🔐 认证与授权
+- 💳 支付处理
+- 📧 邮件服务
+- 🤖 AI 集成（图片/视频/文本生成）
+- 🌍 国际化
+- 🔍 SEO 与分析
+- 📦 云存储
+- 👥 用户控制台与管理系统
+- 📝 博客与 CMS
+
+**技术栈：** Next.js 15, TypeScript, Drizzle ORM, NextAuth, Stripe, Resend
+
+[查看 Skill →](./shipany)
+
+---
 
 ### Web 性能与 SEO
 

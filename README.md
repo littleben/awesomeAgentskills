@@ -17,6 +17,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 - [Claude Official Skills](#claude-official-skills)
   - [Notion Skills](#notion-skills)
 - [Community Skills](#community-skills)
+  - [Framework Documentation](#framework-documentation)
   - [Web Performance & SEO](#web-performance--seo)
   - [Internationalization & Deployment](#internationalization--deployment)
 - [How to Use Skills](#how-to-use-skills)
@@ -162,6 +163,54 @@ Step-by-step guides that teach Claude how to do real work in Notion. Instead of 
 [View Skills →](https://www.notion.so/notiondevs/Notion-Skills-for-Claude-28da4445d27180c7af1df7d8615723d0)
 
 ## Community Skills
+
+### Framework Documentation
+
+Skills providing comprehensive documentation for popular frameworks and tools.
+
+#### [Shipany Docs](./shipany)
+
+Complete documentation reference for Shipany AI-powered SaaS boilerplate framework.
+
+**Use when:**
+- Building SaaS applications with Shipany template
+- Configuring Next.js 15 + Drizzle ORM + NextAuth
+- Integrating payment systems (Stripe/Creem)
+- Setting up multi-language SaaS applications
+- Implementing AI features in SaaS products
+
+**Features:**
+- 228 pages of comprehensive documentation
+- Database configuration with Drizzle ORM
+- Authentication system (Google/GitHub)
+- Payment integration (Stripe/Creem)
+- Email service (Resend)
+- AI integrations (OpenAI, Replicate, Kling AI)
+- Internationalization (next-intl)
+- SEO optimization
+- Cloud storage configuration
+- User management & admin dashboard
+- Blog system with CMS
+
+**Coverage:**
+- 📚 11 categorized topics (572KB total)
+- 🚀 Getting Started & Configuration
+- 💾 Database & ORM
+- 🔐 Authentication & Authorization
+- 💳 Payment Processing
+- 📧 Email Services
+- 🤖 AI Integration (Image/Video/Text Generation)
+- 🌍 Internationalization
+- 🔍 SEO & Analytics
+- 📦 Cloud Storage
+- 👥 User Console & Admin System
+- 📝 Blog & CMS
+
+**Tech Stack:** Next.js 15, TypeScript, Drizzle ORM, NextAuth, Stripe, Resend
+
+[View Skill →](./shipany)
+
+---
 
 ### Web Performance & SEO
 
