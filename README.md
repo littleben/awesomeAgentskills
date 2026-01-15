@@ -15,7 +15,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Quick Links
 
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
-- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n, Deployment & Security
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
@@ -167,6 +167,34 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 **Tech Stack:** GitHub CLI, Vercel CLI, Next.js
 
 [View Skill →](./deploying-to-production)
+
+---
+
+### Security & Code Auditing
+
+Skills for security analysis, code auditing, and vulnerability detection.
+
+#### [Trail of Bits Security Skills](https://github.com/trailofbits/skills)
+
+Security skills for static analysis, variant analysis, code auditing, and vulnerability detection.
+
+**Use when:**
+- Performing security audits on codebases
+- Running static analysis with CodeQL or Semgrep
+- Finding similar vulnerabilities across codebases (variant analysis)
+- Verifying security fixes in code changes
+- Conducting differential code review
+
+**Features:**
+- 17 security-focused skills
+- Static analysis toolkit integration (CodeQL, Semgrep, SARIF)
+- Variant analysis across codebases
+- Fix verification and differential code review
+- Audit context building
+
+**Tech Stack:** CodeQL, Semgrep, SARIF, Python
+
+[View Skill →](https://github.com/trailofbits/skills)
 
 ---
 
