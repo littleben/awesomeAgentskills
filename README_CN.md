@@ -170,6 +170,14 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 
 ---
 
+### Agent 运维与编排
+
+#### [Agent Manager Skill](./agent-manager-skill)
+
+通过 tmux 会话管理多个本地 CLI Agents（start/stop/monitor/assign），支持 cron 友好的定时调度。
+
+[查看 Skill →](./agent-manager-skill)
+
 ## 如何使用 Skills
 
 ### 在 Claude Code 中使用
