@@ -170,6 +170,14 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+### Agent Operations & Orchestration
+
+#### [Agent Manager Skill](./agent-manager-skill)
+
+Manage multiple local CLI agents via tmux sessions (start/stop/monitor/assign) with cron-friendly scheduling.
+
+[View Skill →](./agent-manager-skill)
+
 ## How to Use Skills
 
 ### In Claude Code
