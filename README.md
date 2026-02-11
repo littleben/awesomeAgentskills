@@ -36,6 +36,21 @@ Official skills provided by Anthropic for Claude Code. Includes Creative & Desig
 
 ## Community Skills
 
+### Product Management & Strategy
+
+#### [Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills)
+
+40+ PM-focused skills covering problem framing, discovery, opportunity selection, roadmaps, PRDs, prototypes, story splitting, and SaaS metrics.
+
+**Use when:**
+- Framing product problems and running discovery
+- Selecting opportunities and shaping strategy
+- Building PRDs, roadmaps, and delivery artifacts
+
+[View Library →](https://github.com/deanpeters/Product-Manager-Skills)
+
+---
+
 ### Framework Documentation
 
 Skills providing comprehensive documentation for popular frameworks and tools.
