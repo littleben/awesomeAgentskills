@@ -170,6 +170,10 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+### AI Skills Marketplaces
+
+- [RemoteOpenClaw](https://remoteopenclaw.com) - Open marketplace for AI skills and personas built on OpenClaw
+
 ## How to Use Skills
 
 ### In Claude Code
