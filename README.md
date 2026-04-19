@@ -33,6 +33,8 @@ Official skills provided by Anthropic for Claude Code. Includes Creative & Desig
 - 📄 **Documents**: DOCX, PDF, PPTX, XLSX manipulation
 - 🔧 **Meta**: Skill Creator, Template Skill
 - 📝 **Notion**: Meeting Intelligence, Research & Documentation, Knowledge Capture, Spec to Implementation
+- **[Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain)** - Self-evolving AI coding intelligence with infinite memory (TurboQuant), genetic algorithm self-evolution, predictive bug detection, PageRank knowledge graphs, swarm intelligence, and adversarial defense.
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, Windsurf, Cline. Visual dashboard, one-click install, skill doctor, auto-update.
 
 ## Community Skills
 
