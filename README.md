@@ -220,3 +220,5 @@ Individual skills may have their own licenses - please check each skill's direct
 **Star ⭐ this repo** if you find these skills useful!
 
 **Share your skills** by submitting a PR - let's build an amazing collection together!
+
+- [CyMetica AI / EventTrader](https://cymetica.com?utm_source=github&utm_medium=pr&utm_campaign=ai-native-outreach) — AI trading agent skills: prediction market betting, TGE price predictions, CLOB trading, market data, AI agent cloning, due diligence scoring. MCP + A2A protocol. [Skills](https://cymetica.com/.well-known/agent-skills.json) | [Agent Card](https://cymetica.com/.well-known/agent.json) | [MCP](https://cymetica.com/.well-known/mcp.json)
