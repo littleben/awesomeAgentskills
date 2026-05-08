@@ -170,6 +170,34 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 
 ---
 
+### 社交媒体自动化
+
+用于 X/Twitter 工作流、推文搜索、发帖、回复、媒体、监控和 webhook 自动化的 skills。
+
+#### [TweetClaw](./tweetclaw)
+
+指导智能体通过 Xquik 使用 TweetClaw OpenClaw 插件完成 X/Twitter 自动化。
+
+**使用场景：**
+- 搜索推文、推文回复、用户时间线、趋势或书签
+- 经明确确认后发布推文、发布推文回复、点赞、转推、关注或发送私信
+- 导出粉丝、关注列表、转推用户、点赞用户、媒体推文、列表成员或社区成员
+- 上传媒体、下载推文媒体、创建监控、发送 webhook 或运行抽奖
+
+**功能：**
+- 通过 `explore` 和 `tweetclaw` 提供 99 个可由智能体调用的 Xquik 端点
+- 在真实调用前进行无需凭证的端点发现
+- 使用 Xquik API key 进行账号绑定的 X 自动化
+- MPP 按次付费用于 31 个只读 X API 端点
+- 对付费、写入、私有数据、定期任务和批量操作设置明确确认边界
+- 覆盖凭证、个人数据、媒体、监控、webhook 和导出任务的安全指引
+
+**技术栈：** OpenClaw, Xquik, X/Twitter API, MPP, Node.js
+
+[查看 Skill →](./tweetclaw)
+
+---
+
 ## 如何使用 Skills
 
 ### 在 Claude Code 中使用

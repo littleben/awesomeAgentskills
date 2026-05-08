@@ -170,6 +170,34 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+### Social Media Automation
+
+Skills for X/Twitter workflows, tweet search, posting, replies, media, monitoring, and webhook automation.
+
+#### [TweetClaw](./tweetclaw)
+
+Guides agents through using the TweetClaw OpenClaw plugin for X/Twitter automation through Xquik.
+
+**Use when:**
+- Searching tweets, tweet replies, user timelines, trends, or bookmarks
+- Posting tweets, post tweet replies, likes, retweets, follows, or DMs with explicit approval
+- Exporting followers, following, retweeters, favoriters, media tweets, lists, or community members
+- Uploading media, downloading tweet media, creating monitors, sending webhooks, or running giveaway draws
+
+**Features:**
+- 99 agent-callable Xquik endpoints through `explore` and `tweetclaw`
+- Credential-free endpoint discovery before live calls
+- Account-backed X automation with Xquik API keys
+- MPP pay-per-use mode for 31 read-only X API endpoints
+- Explicit approval boundaries for paid, write-like, private, recurring, and bulk actions
+- Safety guidance for credentials, personal data, media, monitors, webhooks, and exports
+
+**Tech Stack:** OpenClaw, Xquik, X/Twitter API, MPP, Node.js
+
+[View Skill →](./tweetclaw)
+
+---
+
 ## How to Use Skills
 
 ### In Claude Code
