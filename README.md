@@ -15,7 +15,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Quick Links
 
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
-- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n, Deployment & Social Media
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
@@ -167,6 +167,34 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 **Tech Stack:** GitHub CLI, Vercel CLI, Next.js
 
 [View Skill →](./deploying-to-production)
+
+---
+
+### Marketing & Social Media
+
+Skills for managing social media accounts, content pipelines, and brand strategy.
+
+#### [X/Twitter Social Media Manager](./x-social-manager)
+
+Personal X/Twitter social media manager skill featuring researched topics, cinematic voice crafting, and structured scheduling guidelines.
+
+**Use when:**
+- Managing personal or project branding on X/Twitter
+- Crafting engaging developer-focused posts and replies
+- Enforcing standard account (280-char) limit guardrails
+- Structuring 60/40 engagement-to-showcase post distributions
+- Reviewing and editing posts before publishing with strict human approval gates
+
+**Features:**
+- **Topic Research Pipeline**: Deep pre-drafting search and content analysis
+- **Cinematic Post Composer**: Structured spacing, narrative hooks, and emoji spacing
+- **Authentic Reply Engine**: Context-rich replies matching real developer interaction rules
+- **Self-Improving Memory Loop**: Dynamic storage reflecting strategic pivots and learnings
+- **Secure Publishing Gate**: Local automated publishing gated behind explicit "yes" confirmation
+
+**Tech Stack:** ClawHub CLI, Paks CLI, Node.js, Git, Bash
+
+[View Skill →](./x-social-manager)
 
 ---
 
