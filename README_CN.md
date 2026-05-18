@@ -15,7 +15,7 @@ Skills 是专门化的提示词和工作流程，用于扩展 AI 智能体的能
 ## 快速导航
 
 - 📚 [**Claude 官方 Skills**](./official-skills/README.md) - 创意设计、开发工具、企业沟通与元技能
-- 🌟 [**社区贡献 Skills**](#社区贡献-skills) - 框架文档、Web性能、国际化与部署
+- 🌟 [**社区贡献 Skills**](#社区贡献-skills) - X 数据、框架文档、Web性能、国际化与部署
 - 🎓 [**使用指南**](#如何使用-skills) - 安装和使用说明
 - 🤝 [**贡献指南**](#贡献指南) - 提交你自己的 skills
 
@@ -35,6 +35,34 @@ Anthropic 官方为 Claude Code 提供的 skills。包含创意设计、开发�
 - 📝 **Notion**: 会议智能、研究文档、知识捕获、规格实现
 
 ## 社区贡献 Skills
+
+### 数据与 AI
+
+用于外部数据访问、研究工作流和智能体集成的 skills。
+
+#### [Xquik X Twitter Scraper](./x-twitter-scraper)
+
+面向 AI 智能体的 X (Twitter) 数据与确认式操作工作流，支持 Xquik REST API、MCP、SDKs 和 Webhooks。
+
+**使用场景：**
+- 搜索推文或查询用户资料
+- 导出 followers、following、媒体、回复或搜索结果
+- 构建社交聆听、OSINT 或数据研究工作流
+- 通过 REST、MCP、SDKs 或签名 Webhooks 连接智能体
+- 在用户确认后准备发帖、回复、点赞、DM 或资料更新等 X 操作
+
+**功能特性：**
+- 100+ 个覆盖 X 数据和账号工作流的 REST API endpoints
+- 23 种适合大规模数据集的 extraction jobs
+- 提供 `explore` 和 `xquik` 两个 MCP tools
+- 通过 HMAC 签名 Webhooks 发送事件
+- 仅使用 API key，并对私密读取、写入、计费、monitors 和 Webhooks 设置明确确认规则
+
+**技术栈：** Xquik REST API, MCP, Webhooks, TypeScript/Python/Ruby/Go/Kotlin/Java/PHP/C#/CLI SDKs
+
+[查看 Skill →](./x-twitter-scraper)
+
+---
 
 ### 框架文档
 

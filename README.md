@@ -15,7 +15,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Quick Links
 
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
-- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🌟 [**Community Skills**](#community-skills) - X data, Framework Docs, Web Performance, i18n & Deployment
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
@@ -35,6 +35,34 @@ Official skills provided by Anthropic for Claude Code. Includes Creative & Desig
 - 📝 **Notion**: Meeting Intelligence, Research & Documentation, Knowledge Capture, Spec to Implementation
 
 ## Community Skills
+
+### Data & AI
+
+Skills for external data access, research workflows, and agent integrations.
+
+#### [Xquik X Twitter Scraper](./x-twitter-scraper)
+
+X (Twitter) data and action workflow skill for AI agents using Xquik REST API, MCP, SDKs, and webhooks.
+
+**Use when:**
+- Searching tweets or looking up users
+- Exporting followers, following, media, replies, or search results
+- Building social listening, OSINT, or research workflows
+- Connecting agents through REST, MCP, SDKs, or signed webhooks
+- Preparing confirmed X actions such as posts, replies, likes, DMs, or profile updates
+
+**Features:**
+- 100+ REST API endpoints across X data and account workflows
+- 23 extraction job types for larger datasets
+- MCP endpoint with `explore` and `xquik` tools
+- HMAC-signed webhooks for event delivery
+- API-key-only authentication and explicit approval rules for private reads, writes, billing, monitors, and webhooks
+
+**Tech Stack:** Xquik REST API, MCP, Webhooks, TypeScript/Python/Ruby/Go/Kotlin/Java/PHP/C#/CLI SDKs
+
+[View Skill →](./x-twitter-scraper)
+
+---
 
 ### Framework Documentation
 
