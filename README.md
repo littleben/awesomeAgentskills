@@ -15,7 +15,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Quick Links
 
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
-- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🌟 [**Community Skills**](#community-skills) - AI Media, Framework Docs, Web Performance, i18n & Deployment
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
@@ -167,6 +167,32 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 **Tech Stack:** GitHub CLI, Vercel CLI, Next.js
 
 [View Skill →](./deploying-to-production)
+
+---
+
+### AI Media & Model APIs
+
+Skills for running model API jobs from agent workflows.
+
+#### [RunAPI CLI](./runapi-cli)
+
+Use the RunAPI CLI from agents to generate AI images, videos, and music/audio, submit JSON model jobs, and poll async results.
+
+**Use when:**
+- Generating images, videos, music, or audio from an agent
+- Calling RunAPI services with JSON request bodies
+- Submitting async model tasks and waiting for results
+- Scripting RunAPI from a terminal, server, or CI job
+
+**Features:**
+- JSON-first CLI workflow
+- Async submit, wait, and get commands
+- Environment-based API key auth
+- Agent skill install targets for Claude Code, Codex, Gemini CLI, OpenClaw, and custom directories
+
+**Tech Stack:** RunAPI CLI, JSON, Shell, macOS/Linux
+
+[View Skill →](./runapi-cli)
 
 ---
 
