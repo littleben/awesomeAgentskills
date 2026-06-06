@@ -15,7 +15,7 @@ Skills 是专门化的提示词和工作流程，用于扩展 AI 智能体的能
 ## 快速导航
 
 - 📚 [**Claude 官方 Skills**](./official-skills/README.md) - 创意设计、开发工具、企业沟通与元技能
-- 🌟 [**社区贡献 Skills**](#社区贡献-skills) - 框架文档、Web性能、国际化与部署
+- 🌟 [**社区贡献 Skills**](#社区贡献-skills) - AI 媒体、框架文档、Web性能、国际化与部署
 - 🎓 [**使用指南**](#如何使用-skills) - 安装和使用说明
 - 🤝 [**贡献指南**](#贡献指南) - 提交你自己的 skills
 
@@ -167,6 +167,32 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 **技术栈：** GitHub CLI, Vercel CLI, Next.js
 
 [查看 Skill →](./deploying-to-production)
+
+---
+
+### AI 媒体与模型 API
+
+用于在智能体工作流中运行模型 API 任务的 skills。
+
+#### [RunAPI CLI](./runapi-cli)
+
+让智能体通过 RunAPI CLI 生成 AI 图片、视频、音乐/音频，提交 JSON 模型任务，并轮询异步结果。
+
+**使用场景：**
+- 从智能体生成图片、视频、音乐或音频
+- 使用 JSON 请求体调用 RunAPI 服务
+- 提交异步模型任务并等待结果
+- 从终端、服务器或 CI 脚本化运行 RunAPI
+
+**功能特性：**
+- JSON-first CLI 工作流
+- 异步 submit、wait 和 get 命令
+- 基于环境变量的 API key 认证
+- 支持安装到 Claude Code、Codex、Gemini CLI、OpenClaw 和自定义目录
+
+**技术栈：** RunAPI CLI, JSON, Shell, macOS/Linux
+
+[查看 Skill →](./runapi-cli)
 
 ---
 
