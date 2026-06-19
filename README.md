@@ -15,7 +15,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 ## Quick Links
 
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
-- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
+- 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, Marketing & Ads, i18n & Deployment
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
@@ -117,6 +117,34 @@ Diagnoses and fixes PageSpeed Insights accessibility "!" errors caused by color-
 **Tech Stack:** Next.js, React, Tailwind CSS, Lighthouse, axe-core
 
 [View Skill →](./web-performance-seo)
+
+---
+
+### Marketing & Ads
+
+Skills for SEO, GEO (AI search optimization), Google Ads, and Meta Ads, backed by live data through MCP integrations.
+
+#### [NotFair Marketing Skills](./notfair-marketing-skills)
+
+Open-source Claude Code skills for SEO, GEO, Google Ads, and Meta Ads. Connects to live marketing data through Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.
+
+**Use when:**
+- Auditing a website for SEO issues (technical SEO, keyword gaps, meta tags, schema markup)
+- Optimizing for GEO (AI search and generative engine visibility)
+- Auditing Google Ads campaigns for wasted spend or search-term cleanup
+- Analyzing Meta Ads performance (ROAS, creative fatigue, audience overlap)
+- Working with live ad account data via MCP integrations
+
+**Skill areas:**
+- [seo/](https://github.com/nowork-studio/NotFair/tree/main/seo) — site analysis, keyword research, meta tags, schema markup, GEO optimization, content writing
+- [google-ads/](https://github.com/nowork-studio/NotFair/tree/main/google-ads) — audits, wasted-spend detection, search-term cleanup, keyword & bid management
+- [meta-ads/](https://github.com/nowork-studio/NotFair/tree/main/meta-ads) — ROAS analysis, creative fatigue, audience overlap
+
+**MCP integrations:** Google Ads MCP, Meta Ads MCP, Google Search Console MCP, Google Analytics (GA4) MCP
+
+**License:** MIT | ~2.9k stars
+
+[View Skill →](./notfair-marketing-skills)
 
 ---
 
