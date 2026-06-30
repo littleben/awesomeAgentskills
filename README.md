@@ -17,6 +17,7 @@ Skills are specialized prompts and workflows that extend AI agents' capabilities
 - 📚 [**Claude Official Skills**](./official-skills/README.md) - Creative, Development, Enterprise & Meta Skills
 - 🌟 [**Community Skills**](#community-skills) - Framework Docs, Web Performance, i18n & Deployment
 - 🎓 [**How to Use**](#how-to-use-skills) - Installation and usage guide
+- 🔍 [**Skill Hub**](https://github.com/rdone4425/skill) - Cross-platform AI Agent Skills navigation (5,000+ skills, 22 categories)
 - 🤝 [**Contributing**](#contributing) - Submit your own skills
 
 ## Claude Official Skills
