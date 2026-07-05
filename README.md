@@ -36,6 +36,7 @@ Official skills provided by Anthropic for Claude Code. Includes Creative & Desig
 
 ## Community Skills
 
+- **[Context Kit](https://github.com/JDDavenport/context-kit)** — Personal Context Artifacts: 4 Markdown templates (wiki, mental-models, voice, protocols) + 5 Claude Code skills. Solves context amnesia — every session starts context-full. MIT, one-command install.
 ### Framework Documentation
 
 Skills providing comprehensive documentation for popular frameworks and tools.
