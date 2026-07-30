@@ -6,7 +6,7 @@
   "scripts": {
     "sync": "node sync.js",
     "watch": "node watch.js",
-    "test": "node sync.js"
+    "test": "bash test.sh"
   },
   "keywords": [
     "sync",
