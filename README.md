@@ -172,25 +172,25 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ### Social Media Automation
 
-Skills for X/Twitter workflows, tweet search, posting, replies, media, monitoring, and webhook automation.
+Skills for reviewed X/Twitter research, publishing, media, monitoring, and webhook workflows.
 
 #### [TweetClaw](./tweetclaw)
 
-Guides agents through using the TweetClaw OpenClaw plugin for X/Twitter automation through Xquik.
+Guides OpenClaw agents through approved X/Twitter workflows using Xquik.
 
 **Use when:**
 - Searching tweets, tweet replies, user timelines, trends, or bookmarks
-- Posting tweets, post tweet replies, likes, retweets, follows, or DMs with explicit approval
-- Exporting followers, following, retweeters, favoriters, media tweets, lists, or community members
-- Uploading media, downloading tweet media, creating monitors, sending webhooks, or running giveaway draws
+- Publishing, replying, liking, reposting, following, or sending DMs after approval
+- Exporting followers, media, replies, lists, or community members
+- Managing media, monitors, signed webhooks, extractions, or giveaway draws
 
 **Features:**
-- 99 agent-callable Xquik endpoints through `explore` and `tweetclaw`
-- Credential-free endpoint discovery before live calls
-- Account-backed X automation with Xquik API keys
-- MPP pay-per-use mode for 31 read-only X API endpoints
-- Explicit approval boundaries for paid, write-like, private, recurring, and bulk actions
-- Safety guidance for credentials, personal data, media, monitors, webhooks, and exports
+- Verified ClawHub installation with an npm fallback
+- Free local endpoint discovery through `explore`
+- Optional live calls through the `tweetclaw` tool
+- API-key and direct MPP access paths
+- Per-call approval for paid, private, write, recurring, and bulk actions
+- Runtime checks, durable-write guidance, and untrusted-content handling
 
 **Tech Stack:** OpenClaw, Xquik, X/Twitter API, MPP, Node.js
 

@@ -1,15 +1,26 @@
 # TweetClaw Skill
 
-This skill teaches agents how to use the TweetClaw OpenClaw plugin for X/Twitter automation through Xquik.
+Use this Skill for approved X/Twitter workflows through OpenClaw and Xquik.
 
-Use it for concrete X/Twitter jobs:
+Install TweetClaw from Xquik's verified ClawHub publisher:
 
-- Search tweets and tweet replies
-- Post tweets and post tweet replies
-- Export followers, retweeters, favoriters, and list members
-- Upload media and download tweet media
-- Monitor tweets and send webhooks
-- Run giveaway draws from tweet replies
-- Check Xquik credit balance
+```bash
+openclaw plugins install clawhub:@xquik/tweetclaw
+```
 
-Start with `SKILL.md`.
+Enable the optional live-action tool:
+
+```bash
+openclaw config set tools.alsoAllow '["explore", "tweetclaw"]'
+```
+
+Verify the installed runtime:
+
+```bash
+openclaw plugins inspect tweetclaw --runtime --json
+openclaw skills info tweetclaw
+```
+
+Read `SKILL.md` before making live calls.
+
+Xquik is an independent third-party service. Not affiliated with X Corp. "Twitter" and "X" are trademarks of X Corp.
