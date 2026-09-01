@@ -170,6 +170,19 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+### Agent Workflow Orchestration
+
+#### [Agent Coordinator](./agent-coordinator)
+
+Coordinate bounded work graphs in Codex with revisioned local state and explicit reconciliation before retrying uncertain launches or state mutations. It runs per user, requires Python 3.11+, and can use specialist agents when available or execute the same workflow inline.
+
+**Compatibility:** Codex; not tested with Claude Code
+
+**Tech Stack:** Codex, Python 3.11+
+
+[View Skill →](./agent-coordinator)
+
+---
 ## How to Use Skills
 
 ### In Claude Code

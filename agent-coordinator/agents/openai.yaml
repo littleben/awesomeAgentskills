@@ -1,0 +1,6 @@
+interface:
+  display_name: "Coordinator"
+  short_description: "Durable adaptive workflow coordination"
+  default_prompt: "Use $coordinator to plan, route, persist, reconcile, and complete this task with delegated specialists when available and inline execution otherwise."
+policy:
+  allow_implicit_invocation: true

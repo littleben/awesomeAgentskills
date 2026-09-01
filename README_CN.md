@@ -170,6 +170,19 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 
 ---
 
+### Agent 工作流编排
+
+#### [Agent Coordinator](./agent-coordinator)
+
+在 Codex 中将复杂工作组织为有边界的工作图，使用带版本的本地状态，并在重试结果不确定的启动或状态变更前先进行对账。它按用户安装，需要 Python 3.11 或更高版本；可在有条件时使用专门代理，也可在主任务中按同一流程执行。
+
+**兼容性：** Codex；未在 Claude Code 中测试
+
+**技术栈：** Codex、Python 3.11+
+
+[查看 Skill →](./agent-coordinator)
+
+---
 ## 如何使用 Skills
 
 ### 在 Claude Code 中使用

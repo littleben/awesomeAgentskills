@@ -1,0 +1,1 @@
+"""Thin public command adapters."""
