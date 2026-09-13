@@ -213,6 +213,7 @@ Individual skills may have their own licenses - please check each skill's direct
 ## Acknowledgments
 
 - Thanks to [Anthropic](https://www.anthropic.com/) for creating Claude and the skills framework
+- [mblode/agent-skills](https://github.com/mblode/agent-skills) - Nobody ships AI slop on purpose. These skills make sure you don't. UI audits, typography, docs, PR review, and releases.
 - Thanks to all contributors who share their skills with the community
 
 ---
