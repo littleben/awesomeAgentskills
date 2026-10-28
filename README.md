@@ -170,6 +170,28 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+#### [Cloudish](./cloudish)
+
+Deploys a Dockerfile, source folder, or container image to Cloudish and reports the live URL. Cloudish builds the image server-side, so no local Docker is needed, and the agent can create its own API key with no signup.
+
+**Use when:**
+- Putting an app, API, bot, or website online from the agent
+- Deploying a project that has a Dockerfile, or one that needs a minimal one written for it
+- Hosting a database-backed service that needs a persistent volume
+
+**Features:**
+- Server-side builds from a Dockerfile, source folder, or image
+- Persistent volumes and encrypted secrets
+- Agent-created API key that a person can claim later, with spending capped by prepaid credits
+- Keeps keys in a gitignored `.env` and asks before spending beyond the request
+- Reads build and runtime logs on failure instead of reporting success it hasn't seen
+
+**Tech Stack:** Docker, Cloudish API
+
+[View Skill →](./cloudish)
+
+---
+
 ## How to Use Skills
 
 ### In Claude Code

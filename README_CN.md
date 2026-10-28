@@ -170,6 +170,28 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 
 ---
 
+#### [Cloudish](./cloudish)
+
+将 Dockerfile、源码文件夹或容器镜像部署到 Cloudish，并返回上线网址。镜像在服务端构建，无需本地 Docker；Agent 可以免注册自行创建 API 密钥。
+
+**使用场景：**
+- 由 Agent 直接将应用、API、机器人或网站上线
+- 部署已有 Dockerfile 的项目，或为项目编写最小 Dockerfile 后部署
+- 托管需要持久化存储卷的数据库类服务
+
+**功能特性：**
+- 从 Dockerfile、源码文件夹或镜像进行服务端构建
+- 持久化存储卷和加密密钥管理
+- Agent 自行创建的 API 密钥可由用户日后认领，消费上限为预付额度
+- 将密钥保存在被 gitignore 的 `.env` 中，超出请求范围的消费前先确认
+- 失败时读取构建和运行日志，不会在未确认的情况下报告成功
+
+**技术栈：** Docker, Cloudish API
+
+[查看 Skill →](./cloudish)
+
+---
+
 ## 如何使用 Skills
 
 ### 在 Claude Code 中使用
