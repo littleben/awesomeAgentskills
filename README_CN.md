@@ -170,6 +170,37 @@ Shipany AI 驱动的 SaaS 脚手架框架完整文档参考。
 
 ---
 
+### 旅行与地点
+
+GoVisit 的 22 个 MIT 许可 Agent Skills，支持只读旅行发现及已发布目的地内容查询。该工具包由运营 GoVisit.ai 的 inHotel Sàrl 维护。查看 [Agent Skills 指南](https://govisit.ai/en/docs/developers/agent-skills/overview)、[MCP 指南](https://govisit.ai/en/docs/developers/mcp/overview)和[源代码工具包](https://github.com/inhotel-io/govisit-toolkit)。
+
+| Skill | 描述 |
+| --- | --- |
+| [GoVisit 搜索地点](./govisit-search-places) | 按名称或旅行者意图搜索地点，并可按国家、目的地或距离筛选。 |
+| [GoVisit 搜索目的地](./govisit-search-destinations) | 按名称或旅行者意图查找目的地并返回规范链接。 |
+| [GoVisit 统计数据](./govisit-get-statistics) | 查看包含观测日期和来源信息的精确目录覆盖数量。 |
+| [GoVisit 地点概览](./govisit-get-place-overview) | 查看指定地点已发布的概览字段。 |
+| [GoVisit 地点章节](./govisit-get-place-section) | 查看指定地点的已发布章节，并可读取空间详情。 |
+| [GoVisit 地点访问事实](./govisit-get-place-visit-facts) | 查看指定地点简洁且规范化的访问事实。 |
+| [GoVisit 目的地概览](./govisit-get-destination-overview) | 查看指定目的地已发布的概览字段。 |
+| [GoVisit 目的地章节](./govisit-get-destination-section) | 查看指定目的地的已发布章节。 |
+| [GoVisit 类别概览](./govisit-get-category-overview) | 查看目的地类别页面已发布的概览。 |
+| [GoVisit 类别章节](./govisit-get-category-section) | 查看指定目的地类别的已发布章节。 |
+| [GoVisit 集合概览](./govisit-get-collection-overview) | 查看目的地集合页面已发布的概览。 |
+| [GoVisit 集合章节](./govisit-get-collection-section) | 查看指定目的地集合的已发布章节。 |
+| [GoVisit 列出类别地点](./govisit-list-category-places) | 筛选目的地类别页面上已发布的地点卡片。 |
+| [GoVisit 列出集合地点](./govisit-list-collection-places) | 筛选目的地集合页面上已发布的地点卡片。 |
+| [GoVisit 列出目的地活动](./govisit-list-destination-activities) | 查看目的地页面上数量有限的已发布活动。 |
+| [GoVisit 列出目的地类别](./govisit-list-destination-categories) | 查看目的地页面上已发布的类别投影。 |
+| [GoVisit 列出目的地亮点](./govisit-list-destination-highlights) | 查看目的地页面上数量有限的已发布亮点。 |
+| [GoVisit 列出目的地地点](./govisit-list-destination-places) | 筛选目的地页面已有的地点卡片。 |
+| [GoVisit 列出相关地点](./govisit-list-related-places) | 根据已发布字段筛选页面内相关地点。 |
+| [GoVisit 获取文档页面](./govisit-get-documentation-page) | 读取已发布文章中的有限结构化内容。 |
+| [GoVisit 获取页面常见问题](./govisit-get-page-faq) | 查看博客或文档文章中已发布的问题与答案。 |
+| [GoVisit 搜索文档](./govisit-search-documentation) | 搜索已发布文档索引页中的文档链接。 |
+
+---
+
 ## 如何使用 Skills
 
 ### 在 Claude Code 中使用

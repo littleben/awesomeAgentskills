@@ -170,6 +170,37 @@ Automates GitHub repository creation and Vercel deployment for Next.js websites.
 
 ---
 
+### Travel & Location
+
+Portable, MIT-licensed GoVisit Agent Skills for read-only travel discovery and published destination content. The toolkit is maintained by inHotel Sàrl, which operates GoVisit.ai. See the [Agent Skills guide](https://govisit.ai/en/docs/developers/agent-skills/overview), [MCP guide](https://govisit.ai/en/docs/developers/mcp/overview), and [source toolkit](https://github.com/inhotel-io/govisit-toolkit).
+
+| Skill | Description |
+| --- | --- |
+| [GoVisit Search Places](./govisit-search-places) | Search places by name or traveler intent, with optional country, destination, or proximity filters. |
+| [GoVisit Search Destinations](./govisit-search-destinations) | Find destinations by name or traveler intent and return canonical destination links. |
+| [GoVisit Get Statistics](./govisit-get-statistics) | Read exact catalog coverage counts with observation dates and provenance. |
+| [GoVisit Get Place Overview](./govisit-get-place-overview) | Read published overview fields for a selected place. |
+| [GoVisit Get Place Section](./govisit-get-place-section) | Read a selected published place section, including spatial details when requested. |
+| [GoVisit Get Place Visit Facts](./govisit-get-place-visit-facts) | Read compact, normalized visit facts for a selected place. |
+| [GoVisit Get Destination Overview](./govisit-get-destination-overview) | Read published overview fields for a selected destination. |
+| [GoVisit Get Destination Section](./govisit-get-destination-section) | Read a selected published destination section. |
+| [GoVisit Get Category Overview](./govisit-get-category-overview) | Read the published overview for a destination category. |
+| [GoVisit Get Category Section](./govisit-get-category-section) | Read a selected published destination category section. |
+| [GoVisit Get Collection Overview](./govisit-get-collection-overview) | Read the published overview for a destination collection. |
+| [GoVisit Get Collection Section](./govisit-get-collection-section) | Read a selected published destination collection section. |
+| [GoVisit List Category Places](./govisit-list-category-places) | Filter published place cards on a destination category page. |
+| [GoVisit List Collection Places](./govisit-list-collection-places) | Filter published place cards on a destination collection page. |
+| [GoVisit List Destination Activities](./govisit-list-destination-activities) | Read bounded published activities shown on a destination page. |
+| [GoVisit List Destination Categories](./govisit-list-destination-categories) | Read the published category projection shown on a destination page. |
+| [GoVisit List Destination Highlights](./govisit-list-destination-highlights) | Read bounded published highlights shown on a destination page. |
+| [GoVisit List Destination Places](./govisit-list-destination-places) | Filter published place cards already shown on a destination page. |
+| [GoVisit List Related Places](./govisit-list-related-places) | Find page-local related places using published-field filters. |
+| [GoVisit Get Documentation Page](./govisit-get-documentation-page) | Read bounded structured content from a published article. |
+| [GoVisit Get Page FAQ](./govisit-get-page-faq) | Read published questions and answers from a blog or documentation article. |
+| [GoVisit Search Documentation](./govisit-search-documentation) | Search documentation links rendered on a published documentation index. |
+
+---
+
 ## How to Use Skills
 
 ### In Claude Code
